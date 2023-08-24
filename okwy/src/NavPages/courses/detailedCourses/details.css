@@ -1,0 +1,158 @@
+.details-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8vw;
+}
+.details-cont p {
+  color: #29303b;
+}
+
+.overview {
+  width: 70%;
+}
+.overview > img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.course-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.c-name {
+  width: 70%;
+}
+
+.c-name > h2 {
+  color: #29303b;
+}
+
+.c-name > p {
+  font-size: 15px;
+}
+
+/* for the bottom course details */
+.overview > hr {
+  height: 1px;
+  background-color: rgba(236, 226, 229, 0.5);
+  margin-top: 40px;
+}
+.overview > h3 {
+  padding: 35px 0 25px 0;
+  color: #29303b;
+}
+.tutor {
+  display: flex;
+}
+.tutor > img {
+  background-color: #29303b;
+  object-fit: contain;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.tutor-det {
+  margin-top: 5px;
+}
+.tutor-det > h5 {
+  font-size: 15px;
+}
+.learn > p {
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+.checked {
+  color: #654ce4;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+/* For the enroll side section */
+.enroll {
+  width: 300px;
+  padding: 0 20px 30px 30px;
+  border-radius: 11px;
+  box-shadow: 0 20px 40px 0 rgb(11 2 55 / 8%);
+}
+
+.enroll > h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.enroll > p {
+  font-size: 15px;
+  color: #64626e;
+  margin: 15px 0;
+}
+.enroll-icon {
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #654ce4;
+  font-weight: 500;
+  margin-right: 18px;
+}
+
+.enroll-btn {
+  padding: 25px 0 20px 0;
+  margin: auto;
+  text-align: center;
+}
+.blue-enroll {
+  font-size: 0.8rem;
+  padding: 13px 45px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #fff;
+  background-color: rgb(50, 50, 136);
+}
+
+/* For the tablet view  */
+@media screen and (max-width: 992px) {
+  .details-cont {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8vw 4vw;
+  }
+  .overview {
+    width: 100%;
+  }
+  .overview > img {
+    height: 100%;
+  }
+  .enroll {
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+  }
+  .enroll > p {
+    font-size: 15px;
+    color: #64626e;
+    margin: 15px 0;
+    text-align: left;
+  }
+}
+
+/* for the mobile view */
+
+@media screen and (max-width: 576px) {
+  .c-name {
+    width: 70%;
+  }
+  .c-name > h2 {
+    font-size: 22px;
+  }
+  .course-head > span {
+    padding: 8px 10px;
+    font-size: 18px;
+  }
+}

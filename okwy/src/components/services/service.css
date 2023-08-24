@@ -1,0 +1,55 @@
+.service {
+  padding: 8vw 8vw 8vw 8vw;
+  text-align: center;
+}
+
+.service-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 50px;
+}
+
+.all-serv {
+  position: relative;
+  text-align: center;
+  background-color: #d8d9cf;
+  height: 100%;
+  padding-bottom: 2vw;
+}
+
+.all-serv > img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.serv-det {
+  padding: 15px 15px 0 15px;
+}
+
+.serv-det > h6 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.serv-det > p {
+  margin-top: 10px;
+  color: #000;
+  font-size: 0.8rem;
+}
+
+/* For the tablet View */
+@media screen and (max-width: 992px) {
+  .service {
+    padding: 8vw 4vw 8vw 4vw;
+  }
+}
+
+/* For the mobile view */
+@media screen and (max-width: 576px) {
+  .service > h1 {
+    font-size: 1.8rem;
+  }
+}

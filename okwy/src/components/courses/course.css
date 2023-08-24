@@ -1,0 +1,54 @@
+.course {
+  padding: 8vw 8vw 8vw 8vw;
+  text-align: center;
+}
+
+.course-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+  margin-top: 50px;
+}
+
+.all-cos {
+  position: relative;
+  text-align: start;
+  background-color: #d8d9cf;
+  height: 100%;
+}
+
+.all-cos > img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.details {
+  padding: 15px 15px 0 15px;
+}
+
+.details > h6 {
+  margin-top: 10px;
+}
+
+.star {
+  margin-top: 10px;
+  color: #fdc93b;
+  font-size: 0.9rem;
+}
+
+/* For the tablet View */
+@media screen and (max-width: 992px) {
+  .course {
+    padding: 8vw 4vw 8vw 4vw;
+  }
+}
+
+/* For the mobile view */
+@media screen and (max-width: 576px) {
+  .course > h1 {
+    font-size: 1.8rem;
+  }
+}

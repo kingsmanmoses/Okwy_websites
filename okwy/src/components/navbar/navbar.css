@@ -1,0 +1,107 @@
+/* For the navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8vw 6vw;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  z-index: 10;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* to remove the menu icon from desktop view */
+.menu-icons {
+  display: none;
+}
+
+/* for the logo */
+.nav-logo {
+  width: 120px;
+}
+
+/* For the nav options */
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 30px;
+}
+.nav-links {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgb(21, 21, 100);
+  transition: 0.3s ease;
+}
+
+.nav-links:hover {
+  color: #fdc93b;
+}
+
+/* For the tablet view */
+@media screen and (max-width: 992px) {
+  nav {
+    padding: 15px 20px;
+  }
+  .nav-logo {
+    width: 100px;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 220px;
+    height: 100vh;
+    position: absolute;
+    top: 110px;
+    right: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: rgba(17, 20, 104, 0.45);
+    backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    right: 0;
+    opacity: 1;
+    padding-top: 50px;
+    transition: all 0.6s ease;
+    z-index: 1;
+  }
+  .menu-icons {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .nav-item {
+    padding: 20px 0 20px 40px;
+    margin-left: 0;
+  }
+  .nav-links {
+    color: #fff;
+  }
+}
+
+/* For the mobile View */
+@media screen and (max-width: 576px) {
+  .nav-logo {
+    width: 70px;
+  }
+  .menu-icons {
+    font-size: 1.5rem;
+  }
+  .nav-menu {
+    top: 88px;
+  }
+}
