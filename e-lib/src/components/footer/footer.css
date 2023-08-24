@@ -1,0 +1,21 @@
+.footer {
+  background: url("../../img/bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+  padding: 20px 40px;
+  color: #fff;
+}
+.footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.footer img {
+  width: 220px;
+}/*# sourceMappingURL=footer.css.map */

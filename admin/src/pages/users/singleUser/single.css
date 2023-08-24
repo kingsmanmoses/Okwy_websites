@@ -1,0 +1,65 @@
+.singleUser {
+  display: flex;
+  width: 100%;
+}
+.singleUser .singleCont {
+  flex: 6;
+}
+.singleUser .singleCont .center {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.singleUser .singleCont .center .singleProfile {
+  display: flex;
+  flex-direction: column;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 20px;
+  box-shadow: 2px 4px 10px 4px rgba(201, 201, 201, 0.5);
+}
+.singleUser .singleCont .center .singleProfile .title {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.singleUser .singleCont .center .singleProfile .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.singleUser .singleCont .center .singleProfile .item img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.singleUser .singleCont .center .singleProfile .item .details h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.singleUser .singleCont .center .singleProfile .item .details .detailItem {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.singleUser .singleCont .center .singleProfile .item .details .detailItem .itemKey {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.singleUser .singleCont .center .singleProfile .edit {
+  align-self: center;
+  text-align: center;
+  padding: 10px;
+  color: #7451f8;
+  background-color: rgba(117, 87, 248, 0.3529411765);
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 5px;
+}/*# sourceMappingURL=single.css.map */

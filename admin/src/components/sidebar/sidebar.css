@@ -1,0 +1,57 @@
+.sidebar {
+  flex: 1;
+  border-right: 0.5px solid lightgray;
+  min-height: 100vh;
+  background-color: #fff;
+}
+.sidebar .top {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar .top .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6439ff;
+}
+.sidebar hr {
+  height: 0;
+  border: 0.5px solid lightgray;
+}
+.sidebar .center {
+  padding-left: 10px;
+}
+.sidebar .center ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sidebar .center ul .logBtn {
+  cursor: pointer;
+}
+.sidebar .center ul .title {
+  font-size: 10px;
+  font-weight: bold;
+  color: #999;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.sidebar .center ul li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.sidebar .center ul li .icon {
+  font-size: 18px;
+  color: #7451f8;
+}
+.sidebar .center ul li span {
+  font-size: 13px;
+  font-weight: bold;
+  color: #888;
+  margin-left: 10px;
+}
+.sidebar .center ul li:hover {
+  background-color: #ece8ff;
+}/*# sourceMappingURL=sidebar.css.map */

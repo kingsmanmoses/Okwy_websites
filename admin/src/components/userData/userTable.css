@@ -1,0 +1,43 @@
+.userTable {
+  height: 600px;
+  padding: 20px;
+}
+.userTable .cellAction {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.userTable .cellAction .approveBtn {
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: green;
+  border: 1px solid rgb(0, 128, 0);
+  cursor: pointer;
+}
+.userTable .cellAction .viewBtn {
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: darkblue;
+  border: 1px solid rgb(0, 0, 139);
+  cursor: pointer;
+}
+.userTable .cellAction .deleteBtn {
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: red;
+  border: 1px solid rgb(173, 4, 4);
+  cursor: pointer;
+}
+.userTable .cellWithImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.userTable .cellWithImg .cellImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 20px;
+}/*# sourceMappingURL=userTable.css.map */

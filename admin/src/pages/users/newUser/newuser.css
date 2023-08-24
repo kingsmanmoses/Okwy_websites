@@ -1,0 +1,67 @@
+.newUser {
+  width: 100%;
+  display: flex;
+}
+.newUser .newUserCont {
+  flex: 6;
+}
+.newUser .newUserCont .bottom {
+  padding: 40px !important;
+}
+.newUser .newUserCont .top,
+.newUser .newUserCont .bottom {
+  box-shadow: 2px 4px 10px 4px rgba(201, 201, 201, 0.5);
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+}
+.newUser .newUserCont .top h1,
+.newUser .newUserCont .bottom h1 {
+  font-size: 25px;
+}
+.newUser .newUserCont .top .left,
+.newUser .newUserCont .bottom .left {
+  flex: 1;
+  text-align: center;
+}
+.newUser .newUserCont .top .left img,
+.newUser .newUserCont .bottom .left img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.newUser .newUserCont .top .right,
+.newUser .newUserCont .bottom .right {
+  flex: 2;
+}
+.newUser .newUserCont .top .right form,
+.newUser .newUserCont .bottom .right form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.newUser .newUserCont .top .right form .formInput,
+.newUser .newUserCont .bottom .right form .formInput {
+  width: 40%;
+}
+.newUser .newUserCont .top .right form .formInput input,
+.newUser .newUserCont .bottom .right form .formInput input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.newUser .newUserCont .top .right form button,
+.newUser .newUserCont .bottom .right form button {
+  text-transform: uppercase;
+  width: 150px;
+  padding: 10px;
+  border: none;
+  background-color: teal;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}/*# sourceMappingURL=newuser.css.map */

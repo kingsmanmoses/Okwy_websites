@@ -1,0 +1,79 @@
+.bookReq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.bookNon {
+  width: 100%;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookR {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px 40px;
+  margin-bottom: 100px;
+  gap: 50px;
+}
+.bookR h1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bookR .bookR-cont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  overflow-y: auto;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 30px 40px;
+}
+.bookR .bookR-cont::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.bookR .bookR-cont::-webkit-scrollbar-thumb {
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.2666666667);
+  visibility: hidden;
+}
+.bookR .bookR-cont:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+.bookR .bookR-cont .bookR-item {
+  width: 300px;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+.bookR .bookR-cont .bookR-item img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.bookR .bookR-cont .bookR-item .button {
+  background: #d9aa63;
+  width: 120px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  cursor: pointer;
+}/*# sourceMappingURL=BookRequest.css.map */

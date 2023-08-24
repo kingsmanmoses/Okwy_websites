@@ -1,0 +1,56 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 40px 40px;
+  gap: 40px;
+
+  //   for the search bar
+  .search {
+    display: flex;
+    width: max-content;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: rgba(211, 211, 211, 0.5);
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #000;
+    input {
+      background: none;
+      width: 230px;
+      border: none;
+      outline: none;
+      &::placeholder {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  //   for the main hero body page
+  .hero-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .hero-details {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      h1 {
+        font-size: 3rem;
+      }
+      .hero-btn {
+        background: #d9aa63;
+        width: 140px;
+        padding: 10px 10px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+        gap: 7px;
+      }
+    }
+  }
+}

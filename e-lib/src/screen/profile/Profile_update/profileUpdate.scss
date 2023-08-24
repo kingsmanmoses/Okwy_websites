@@ -1,0 +1,64 @@
+.proUpdate {
+  background: url('../../../img/proUpdate.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .proCont {
+    width: 500px;
+    height: 350px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    gap: 20px;
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+      .proDetails {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+        input {
+          margin-top: 10px;
+          width: 200px;
+          height: 40px;
+          padding: 0 10px;
+        }
+      }
+
+      .proBtnCont {
+        display: flex;
+        gap: 30px;
+
+        button {
+          width: 200px;
+          background: #d9aa63;
+          padding: 10px 10px;
+          border-radius: 5px;
+          border: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #000;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

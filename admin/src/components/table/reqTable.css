@@ -1,0 +1,81 @@
+.ReqTable {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #bbb;
+}
+.ReqTable .tableCont {
+  background-color: rgba(255, 255, 255, 0.3333333333);
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.3333333333);
+  border-radius: 0.8rem;
+  height: 90vh;
+  width: 80vw;
+}
+.ReqTable .tableCont .tableBody {
+  width: 95%;
+  max-height: calc(89% - 1.6rem);
+  background-color: rgba(255, 255, 255, 0.7333333333);
+  margin: 0.8rem auto;
+  border-radius: 0.6rem;
+  overflow-y: auto;
+}
+.ReqTable .tableCont .tableBody::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.ReqTable .tableCont .tableBody::-webkit-scrollbar-thumb {
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.2666666667);
+  visibility: hidden;
+}
+.ReqTable .tableCont .tableBody:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+.ReqTable .tableCont .tableBody table {
+  width: 100%;
+}
+.ReqTable .tableCont .tableBody table thead th {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: rgba(228, 224, 224, 0.651);
+}
+.ReqTable .tableCont .tableBody table tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.0431372549);
+}
+.ReqTable .tableCont .tableBody table .btnAcc {
+  background-color: #86e49d;
+  color: #006b21;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+  margin-right: 10px;
+}
+.ReqTable .tableCont .tableBody table .btnDel {
+  background-color: #d893a3;
+  color: #b30021;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+}
+.ReqTable .tableCont .tableBody table,
+.ReqTable .tableCont .tableBody th,
+.ReqTable .tableCont .tableBody td {
+  border-collapse: collapse;
+  padding: 1rem;
+  text-align: center;
+}
+.ReqTable .tableCont .tableBody td img {
+  width: 36px;
+  height: 36px;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}/*# sourceMappingURL=reqTable.css.map */

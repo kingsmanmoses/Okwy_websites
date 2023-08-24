@@ -1,0 +1,7 @@
+.listUser {
+  display: flex;
+  width: 100%;
+}
+.listUser .listCont {
+  flex: 7;
+}/*# sourceMappingURL=list.css.map */

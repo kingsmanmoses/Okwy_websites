@@ -1,0 +1,41 @@
+.eachCont {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  gap: 20px;
+  height: 100%;
+  video {
+    object-fit: contain;
+    outline: none;
+    height: 800px;
+  }
+  .eachItem {
+    height: 500px;
+    gap: 80px;
+    display: flex;
+    .eachImg {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      flex: 1;
+      h2 {
+        font-size: 2rem;
+      }
+      img {
+        width: 430px;
+        height: 430px;
+        object-fit: contain;
+      }
+    }
+    .eachDesc {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      flex: 2;
+      p {
+        width: 700px;
+      }
+    }
+  }
+}

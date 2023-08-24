@@ -1,0 +1,68 @@
+.singleUser {
+  display: flex;
+  width: 100%;
+  .singleCont {
+    flex: 6;
+    .center {
+      padding-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .singleProfile {
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        padding: 20px;
+        box-shadow: 2px 4px 10px 4px rgba(201, 201, 201, 0.5);
+        .title {
+          font-size: 28px;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        .item {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+
+          img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+
+          .details {
+            h1 {
+              font-size: 20px;
+              margin-bottom: 10px;
+            }
+            .detailItem {
+              gap: 5px;
+              display: flex;
+              flex-direction: column;
+              .itemKey {
+                font-weight: bold;
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+        .edit {
+          align-self: center;
+          text-align: center;
+          padding: 10px;
+          color: #7451f8;
+          background-color: #7557f85a;
+          outline: none;
+          border: none;
+          margin-top: 20px;
+          width: 150px;
+          cursor: pointer;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
